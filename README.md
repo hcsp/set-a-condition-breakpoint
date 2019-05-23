@@ -4,4 +4,4 @@
 
 敬请期待写代码啦的课程
 
-敬请期待
+回到[写代码啦的题目](https://xiedaimala.com/tasks/983f970a-bfd9-4141-89c1-c3479f2a61e8/quizzes/6d73994a-aa16-42fd-af55-e44a0ed43c87)，继续挑战！
