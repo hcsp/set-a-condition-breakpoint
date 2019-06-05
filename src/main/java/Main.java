@@ -17,7 +17,10 @@ public class Main {
         Stream<String> entries =
                 Stream.of(System.getProperty("java.class.path").split(File.pathSeparator));
         File targetClassDir =
-                entries.filter(entry -> entry.endsWith("target/classes"))
+                entries.filter(
+                                entry ->
+                                        entry.endsWith("target/classes")
+                                                || entry.endsWith("target\\classes"))
                         .findFirst()
                         .map(File::new)
                         .orElseThrow(IllegalStateException::new);
